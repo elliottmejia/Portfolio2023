@@ -14,7 +14,7 @@ const INFO = {
 	homepage: {
 		title: "Ecommerce Development, Marketing, and UX Optimization.",
 		description: {
-			p1: 'Elliott Mejia is an ecommerce polyglot. He can help you scale from Shopify Trial to a fully headless React application, <span class="italic">without ever needing to know what the hell that means.</span> (Let\'s just say that you and your customers will be happier).',
+			p1: 'Elliott Mejia is an ecommerce polyglot. He can help you scale from Shopify Trial to a fully headless React application, <span class="italic">without ever needing to know what that means.</span> (Let\'s just say that you and your customers will be happier).',
 		},
 	},
 

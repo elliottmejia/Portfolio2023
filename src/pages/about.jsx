@@ -65,7 +65,11 @@ const About = () => {
 							</div>
 
 							<div className="about-left-side">
-								<div className="about-image-container">
+								<div
+									className="about-image-container"
+									height="370px"
+									width="370px"
+								>
 									<div className="about-image-wrapper">
 										<img
 											src="orange_coat.jpg"

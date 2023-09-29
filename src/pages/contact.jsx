@@ -48,10 +48,9 @@ const Contact = () => {
 							<a href={`mailto:${INFO.main.email}`}>
 								{INFO.main.email}
 							</a>
-							. While I try to reply within 24 hours, It my be
-							difficult during a client's tech emergency. If you
-							prefer to connect on social media, you can find me
-							on{" "}
+							. While I try to reply within 24 hours, during a
+							crunch I may reply later. If you prefer to connect
+							on social media, you can find me on{" "}
 							<a
 								href={INFO.socials.linkedin}
 								target="_blank"
@@ -59,8 +58,8 @@ const Contact = () => {
 							>
 								Linkedin
 							</a>
-							. Thanks again for your interest, and I look forward
-							to hearing from you!
+							. Thanks you for your interest- I look forward to
+							hearing from you!
 						</div>
 					</div>
 

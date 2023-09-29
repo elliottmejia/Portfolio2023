@@ -1,1 +1,1 @@
-Credits to Tharindu.dev for the incredible (https://reactfolio.tharindu.dev/)[template].
+Credits to Tharindu.dev for the incredible [https://reactfolio.tharindu.dev/](template).

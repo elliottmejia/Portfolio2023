@@ -69,7 +69,7 @@ const Homepage = () => {
 	};
 
 	return (
-		<React.Fragment>
+		<>
 			<Helmet>
 				<title>{INFO.main.title}</title>
 				<meta name="description" content={currentSEO.description} />
@@ -96,7 +96,18 @@ const Homepage = () => {
 								</div>
 
 								<div className="subtitle homepage-subtitle">
-									{INFO.homepage.description}
+									{Object.values(
+										INFO.homepage.description
+									).map((e, index) => {
+										return (
+											<div
+												key={index}
+												dangerouslySetInnerHTML={{
+													__html: e,
+												}}
+											></div>
+										);
+									})}
 								</div>
 							</div>
 
@@ -115,16 +126,6 @@ const Homepage = () => {
 
 						<div className="homepage-socials">
 							<a
-								href={INFO.socials.twitter}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faTwitter}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
 								href={INFO.socials.github}
 								target="_blank"
 								rel="noreferrer"
@@ -134,17 +135,7 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
-							<a
-								href={INFO.socials.stackoverflow}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faStackOverflow}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
+							{/* <a
 								href={INFO.socials.instagram}
 								target="_blank"
 								rel="noreferrer"
@@ -153,7 +144,7 @@ const Homepage = () => {
 									icon={faInstagram}
 									className="homepage-social-icon"
 								/>
-							</a>
+							</a> */}
 							<a
 								href={`mailto:${INFO.main.email}`}
 								target="_blank"
@@ -171,7 +162,7 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-after-title">
-							<div className="homepage-articles">
+							{/* 	<div className="homepage-articles">
 								{myArticles.map((article, index) => (
 									<div
 										className="homepage-article"
@@ -186,7 +177,7 @@ const Homepage = () => {
 										/>
 									</div>
 								))}
-							</div>
+							</div> */}
 
 							<div className="homepage-works">
 								<Works />
@@ -199,7 +190,7 @@ const Homepage = () => {
 					</div>
 				</div>
 			</div>
-		</React.Fragment>
+		</>
 	);
 };
 

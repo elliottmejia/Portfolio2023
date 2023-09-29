@@ -1,30 +1,31 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		title: "Elliott",
+		name: "Elliott Mejia",
+		email: "mejia.elliott@gmail.com",
 		logo: "../logo.png",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		github: "https://github.com/elliottmejia",
+		linkedin: "https://www.linkedin.com/in/elliott-mejia-8873b397/",
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
-		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+		title: "Ecommerce Development, Marketing, and UX Optimization.",
+		description: {
+			p1: 'Elliott Mejia is an ecommerce polyglot. He can help you scale from Shopify Trial to a fully headless React application, <span class="italic">without ever needing to know what the hell that means.</span> (Let\'s just say that you and your customers will be happier).',
+		},
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
-		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+		title: "I’m Elliott Mejia from Seattle, currently living in Los Angeles.",
+		description: {
+			p2: "My <strong>marketing</strong> background started with a sales job at <strong>Cork Genius</strong>, where I was asked to provide my input on a potential issue. This input got me promoted to a more dynamic role. After optimizing our CRM system, I was asked to sit in on every meeting we had. Paid Search, SEO, Page Insights, etc.",
+			p3: "Throughout this role, I became fascinated with connections- how the web resembled the human brain, with APIs acting as dendrites, recieving packets by means of field potentials. I dedicated all of my free time to studying and coding, and five years later was landing jobs in pure development roles.",
+			p1: "My <strong>development</strong> work has primarily been packaged in the Shopify ecosystem, but I am well versed in Node, Django, and Flask backend development as well as React JS in the front-end. My coding foundation lies in Javascript, the 'language of the web'. I have taken freelance projects in web-scraper based data collection (<strong>Python</strong>), migration to Shopify (<strong>Liquid, JS, HTML, CSS</strong>), and filesystem task automation (<strong>Python, C, Bash/ZSH</strong>).",
+			p4: "To this day, I have consoluted for over 10 companies and worked for 2 companies with over 10 million yearly revenue. I see Ecommerce as a team sport- building ecosystems is my passion, and I love hearing and sharing new information as the indutry evolves.",
+		},
 	},
 
 	articles: {
@@ -35,48 +36,54 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Dolls Kill",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"A notorious (and dauntingly popular) alt-fashion brand. They had great snacks.",
+			logo: "shopify_glyph_black.png",
+			linkText: "Visit Site",
+			link: "https://dollskill.com",
+		},
+		{
+			title: "Lestien",
+			description:
+				"You may have seen Drake in these sweatpants. Brainchild of the brilliant Courtney Olgivie.",
+			logo: "shopify_glyph_black.png",
+			linkText: "Visit Site",
+			link: "https://lestien.com",
+		},
+		{
+			title: "Cork Genius",
+			description:
+				"A wine opener brand with a POP. Marketing, Customer service, and CRM.",
+			logo: "shopify_glyph_black.png",
+			linkText: "Visit Site",
+			link: "https://corkgenius.com/",
 		},
 
 		{
-			title: "Project 2",
+			title: "High Life Goods",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"A DTC website for a primarily wholesale cannabis supply brand.",
+			logo: "shopify_glyph_black.png",
+			linkText: "Visit Site",
+			link: "https://highlifegoods.com/",
 		},
 
 		{
-			title: "Project 3",
+			title: "Michael Lauren",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"A clothing brand build on luxury basics. I designed the entire website.",
+			logo: "shopify_glyph_black.png",
+			linkText: "Visit Site",
+			link: "https://michaellaurenclothing.com",
 		},
-
 		{
-			title: "Project 4",
+			title: "Lauren Moshi",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"A rocker-ready brand with a focus on artistic iconography.",
+			logo: "shopify_glyph_black.png",
+			linkText: "Visit Site",
+			link: "https://laurenmoshi.com",
 		},
 	],
 };

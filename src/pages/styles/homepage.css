@@ -68,10 +68,12 @@
 .homepage-social-icon:hover {
 	color: var(--primary-color);
 }
-
+/* 
 .homepage-after-title {
 	display: flex;
 }
+
+*/
 
 .homepage-projects {
 	flex-basis: 300px;

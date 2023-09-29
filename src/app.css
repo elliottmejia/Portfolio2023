@@ -42,6 +42,9 @@
 	right: 0;
 	z-index: 1;
 }
+.italic {
+	font-style: italic;
+}
 
 .content-wrapper {
 	max-width: 1000px;

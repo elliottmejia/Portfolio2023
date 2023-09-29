@@ -46,7 +46,21 @@ const About = () => {
 								</div>
 
 								<div className="subtitle about-subtitle">
-									{INFO.about.description}
+									{Object.values(INFO.about.description).map(
+										(e, index) => {
+											return (
+												<>
+													<div
+														key={index}
+														dangerouslySetInnerHTML={{
+															__html: e,
+														}}
+													/>
+													<br />
+												</>
+											);
+										}
+									)}
 								</div>
 							</div>
 
@@ -54,7 +68,7 @@ const About = () => {
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
-											src="about.jpg"
+											src="orange_coat.jpg"
 											alt="about"
 											className="about-image"
 										/>

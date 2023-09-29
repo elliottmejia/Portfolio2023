@@ -10,7 +10,7 @@ const Article = (props) => {
 	const { title, description, date, link } = props;
 
 	return (
-		<React.Fragment>
+		<>
 			<div className="homepage-article">
 				<div className="homepage-article-content">
 					<div className="homepage-article-date">
@@ -31,7 +31,7 @@ const Article = (props) => {
 					</div>
 				</div>
 			</div>
-		</React.Fragment>
+		</>
 	);
 };
 

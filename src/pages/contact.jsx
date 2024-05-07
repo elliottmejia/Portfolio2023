@@ -32,36 +32,7 @@ const Contact = () => {
 			<div className="page-content">
 				<NavBar active="contact" />
 				<div className="content-wrapper">
-					<div className="contact-logo-container">
-						<div className="contact-logo">
-							<Logo width={46} />
-						</div>
-					</div>
-
-					<div className="contact-container">
-						<div className="title contact-title">
-							Let's Get in Touch.
-						</div>
-
-						<div className="subtitle contact-subtitle">
-							My inbox is open! You can email me directly at{" "}
-							<a href={`mailto:${INFO.main.email}`}>
-								{INFO.main.email}
-							</a>
-							. While I try to reply within 24 hours, during a
-							crunch I may reply later. If you prefer to connect
-							on social media, you can find me on{" "}
-							<a
-								href={INFO.socials.linkedin}
-								target="_blank"
-								rel="noreferrer"
-							>
-								Linkedin
-							</a>
-							. Thanks you for your interest- I look forward to
-							hearing from you!
-						</div>
-					</div>
+					<iframe src="https://app.hellobonsai.com/f/30d55619e3def19?embed=true" frameborder="0" width="100%" height="100%" style="border: none; min-height: 600px"></iframe>
 
 					<div className="socials-container">
 						<div className="contact-socials">
